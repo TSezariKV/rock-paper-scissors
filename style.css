@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #10101f;
+    color: #fff;
+}
+.container{
+    position: relative;
+    border: 1px solid #10101f;
+    width: 800px;
+    height: 700px;
+    margin: 100px auto;
+}
+.btn{
+    width: 125px;
+    height: 125px;
+    position: relative;
+    top: 200px;
+    left: 80px;
+    margin: 40px;
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition: 100ms;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    height: 70px;
+    margin: 100px auto;
+}
+.playerText{
+    text-align: start;
+    position: relative;
+}
+.botText{
+    text-align: end;
+    position: relative;
+    top: -84px;
+}
+.resultsText{
+    text-align: center;
+    position: relative;
+    top: 0;
+}
+.choiceText{
+    margin-top: 10px;
+    color: cyan;
+}
+.botChoiceText{
+    position: relative;
+}
